@@ -11,55 +11,50 @@
     border: 1px solid rgb(0, 0, 0);
 }
 
-/* Основание дома */
 .house {
     position: relative;
-    width: 200px; /* Ширина дома */
-    height: 150px; /* Высота дома */
-    background-color: #b51b1b; /* Коричневый цвет */
-    margin: 100px auto; /* Центрируем дом на странице */
+    width: 200px; 
+    height: 150px; 
+    background-color: #b51b1b; 
+    margin: 100px auto; 
     border: 1px solid rgb(0, 0, 0);
 }
 
-/* Крыша дома */
 .roof {
     position: absolute;
-    top: -51px; /* Смещаем крышу вверх */
-    left: 50%; /* Центрируем крышу */
-    transform: translateX(-50%); /* Точное центрирование */
+    top: -51px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 0;
     height: 0;
-    border-left: 100px solid transparent; /* Левый край треугольника */
-    border-right: 100px solid transparent; /* Правый край треугольника */
-    border-bottom: 50px solid #A0522D; /* Основание треугольника (цвет крыши) */
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid #A0522D;
     
 }
 
-/* Окно */
 .window {
     position: absolute;
-    top: 50px; /* Положение окна по вертикали */
-    left: 50%; /* Центрируем окно */
-    transform: translateX(-50%); /* Точное центрирование */
-    width: 50px; /* Ширина окна */
-    height: 50px; /* Высота окна */
-    background-color: #87CEEB; /* Голубой цвет */
-    border-radius: 50%; /* Делаем окно круглым */
+    top: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 50px; 
+    height: 50px; 
+    background-color: #87CEEB; 
+    border-radius: 50%; 
     border: 1px solid rgb(0, 0, 0);
 }
 
-/* Дымоход */
 .chimney {
     position: absolute;
-    top: -80px; /* Положение дымохода по вертикали */
-    left: 70%; /* Положение дымохода по горизонтали */
-    width: 20px; /* Ширина дымохода */
-    height: 60px; /* Высота дымохода */
-    background-color: #696969; /* Серый цвет */
+    top: -80px; 
+    left: 70%; 
+    width: 20px; 
+    height: 60px; 
+    background-color: #696969; 
     border: 1px solid rgb(0, 0, 0);
 }
 
-/* Дверь */
 .door {
     position: absolute;
     top: -1px; 
